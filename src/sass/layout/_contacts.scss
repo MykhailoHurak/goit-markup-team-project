@@ -18,4 +18,35 @@
   padding: 0px 17px;
   border-radius: 6px;
   background-color: #f0d1a5;
+  margin-bottom: 25px;
+}
+.contacts__primary-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+
+  color: $color-text-primary;
+  margin-bottom: 25px;
+}
+.contacts__secondary-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: $color-text-secondary;
+  margin-bottom: 25px;
+}
+.contacts__work-time__primary-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+
+  color: $color-text-primary;
+}
+.contacts__work-time__time {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  color: $color-text-pink;
 }
