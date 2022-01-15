@@ -1,26 +1,28 @@
-.container__header {
-  width: 100%;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-
-  @media screen and (min-width: 480px) {
-    width: 480px;
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 768px;
-    padding-left: 34px;
-    padding-right: 34px;
-  }
-
-  @media screen and (min-width: 1280px) {
-    width: 1280px;
-  }
+.header {
+  background-color: #ffb8ca;
 }
+// .container__header {
+//   width: 100%;
+//   margin: 0 auto;
+//   padding-left: 15px;
+//   padding-right: 15px;
+
+//   @media screen and (min-width: 480px) {
+//     width: 480px;
+//   }
+
+//   @media screen and (min-width: 768px) {
+//     width: 768px;
+//     padding-left: 34px;
+//     padding-right: 34px;
+//   }
+
+//   @media screen and (min-width: 1280px) {
+//     width: 1280px;
+//   }
+// }
 
 .header__container {
-  background-color: #ffb8ca;
   height: 502px;
   background-image: url(/images/images.header/moroz1xmob.png),
     url(/images/images.header/ckugmob1x.png);
@@ -97,9 +99,6 @@
     cursor: pointer;
     border: none;
   }
-  @media screen and (min-width: 1280px) {
-    margin-right: 81px;
-  }
 }
 .hero__text {
   @media screen and (max-width: 767px) {
@@ -120,7 +119,7 @@
     font-size: 8px;
     line-height: 1.5;
     margin-top: 112px;
-    margin-left: 227px;
+    margin-left: 163px;
   }
 }
 .header__box {
@@ -133,7 +132,6 @@
   }
 }
 .header__logo {
-  padding-left: 20px;
   cursor: pointer;
   @media screen and (min-width: 1280px) {
     padding-left: 12px;
@@ -169,7 +167,6 @@
   margin-top: 137px;
   @media screen and (min-width: 768px) {
     margin-top: 15px;
-    padding-left: 34px;
   }
   @media screen and (min-width: 1280px) {
     margin-top: 84px;
