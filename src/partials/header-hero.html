@@ -1,7 +1,70 @@
-<header>
-    <h1>Header</h1>
+<header class="header">
+    <div class="container__header header__container">
+        <div class="header__box">
+            <a href="#" class="header__logo">
+                <img src="images/header/logomobil.png" alt="logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link"><span class="nav__link_styles">Home</span></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">About us</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">How it’s made?</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Our products</a>
+                    </li>
+                    <li class="nav__item">
+                         <a href="#" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <button type="button" class="header__btn js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <span class="btn__burger"></span>
+                <span class="btn__burger"></span>
+                <span class="btn__burger"></span>
+            </button>
+            <button type="button" class="header__modal_btn">
+                Buy now 
+                <svg width="5" height="8" class="menu__btn_icon">
+                    <use href="images/icons.svg#icon-Vector"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="hero">
+            <h1 class="hero__title">ice cream <br> made with <br> <span class="title__styles">passion</span> </h1>
+            <div class="hero__buttons">
+                <button type="button" class="hero__btn">Products</button>
+                <button type="button" class="hero__btn_styles">How it’s made?</button>
+            </div>
+            <p class="hero__text">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit,<br> sed do eiusmod tempor <br>incididunt ut
+                labore et</p>
+        </div>
+
+        <div class="mobile__menu js-menu-container" id="mobile-menu" >
+            <button type="button" class="menu__btn_close js-close-menu">
+                <svg width="14" height="14" class="menu__svg">
+                    <use href="images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <button type="button" class="menu__btn">
+                Buy now 
+                <svg width="5" height="8" class="menu__btn_icon">
+                    <use href="images/icons.svg#icon-Vector"></use>
+                </svg>
+            </button>
+            <ul class="menu__list">
+                <li class="menu__item"><a href="#" class="menu__link"><span class="menu__link_styles">Home</span></a></li>
+                <li class="menu__item"><a href="#" class="menu__link">About us</a> </li>
+                <li class="menu__item"><a href="#" class="menu__link">How it’s made?</a> </li>
+                <li class="menu__item"><a href="#" class="menu__link">Our products</a> </li>
+                <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
 </header>
 
-<section>
-    <h1>Hero</h1>
-</section>
