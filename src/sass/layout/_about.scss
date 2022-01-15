@@ -31,11 +31,13 @@
 
 .button--about {
   display: flex;
-  position: relative;
-  &::after {
-    position: absolute;
-  }
+  justify-content: center;
+  align-items: center;
 }
+
+// .button__icon {
+//   margin-left: 14px;
+// }
 
 // .footer__button {
 //   display: flex;
