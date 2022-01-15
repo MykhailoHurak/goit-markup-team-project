@@ -1,11 +1,25 @@
 .contacts__section {
-  // background-image: url(../../images/background-contats.png);
-  background: -webkit-linear-gradient(180deg, rgb(255, 255, 255) 80px, rgb(255, 245, 246) 2%);
-  background: -moz-linear-gradient(180deg, rgb(255, 255, 255) 80px, rgb(255, 245, 246) 2%);
-  background: linear-gradient(180deg, rgb(255, 255, 255) 80px, rgb(255, 245, 246) 2%);
+  @media screen and (max-width: 1279.9px) {
+    background: -webkit-linear-gradient(180deg, rgb(255, 255, 255) 80px, rgb(255, 245, 246) 2%);
+    background: -moz-linear-gradient(180deg, rgb(255, 255, 255) 80px, rgb(255, 245, 246) 2%);
+    background: linear-gradient(180deg, rgb(255, 255, 255) 80px, rgb(255, 245, 246) 2%);
+  }
+  @media screen and (min-width: 1280px) {
+    background-image: url(../images/background-contacts.png),
+      linear-gradient(180deg, rgb(255, 255, 255) 80px, rgb(255, 245, 246) 2%);
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 1920px;
+  }
+  @media (min-resolution: 2dppx) {
+    background-image: url(../images/background-contacts-2x.png),
+      linear-gradient(180deg, rgb(255, 255, 255) 80px, rgb(255, 245, 246) 2%);
+  }
 }
+
 .contacts {
   margin-bottom: 55px;
+
   @media screen and (min-width: 768px) {
     font-size: 14px;
     margin: 0px -10px;
@@ -17,7 +31,13 @@
     font-size: 16px;
     margin: 0px -15px;
     margin-bottom: 85px;
+    position: relative;
   }
+}
+.contacts__img {
+  position: absolute;
+  width: 1920px;
+  top: 20%;
 }
 .contacts__item:not(:last-child) {
   @media screen and (max-width: 767.8px) {
@@ -26,7 +46,8 @@
 }
 .contacts__item {
   position: relative;
-
+  margin-left: auto;
+  margin-right: auto;
   width: 220px;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
@@ -165,5 +186,14 @@
   }
   @media screen and (min-width: 1280px) {
     line-height: 28px;
+  }
+}
+.contacts-button {
+  padding-bottom: 115px;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 160px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-bottom: 165px;
   }
 }
