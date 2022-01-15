@@ -22,25 +22,27 @@
 .header__container {
   background-color: #ffb8ca;
   height: 502px;
-  background-image: url(/images/header/мороженкоmobil1x.png), url(/images/header/кругmobile1x.png);
+  background-image: url(/images/images.header/moroz1xmob.png),
+    url(/images/images.header/ckugmob1x.png);
   background-repeat: no-repeat;
   background-position: right 32px bottom 0px, right 0px bottom 75px;
 
   @media screen and (min-width: 768px) {
     height: 399px;
-    background-image: url(/images/header/мороженкоtablet1x.png),
-      url(/images/header/girltablet1x.png), url(/images/header/кругtablet1x.png),
-      url(/images/header/16tab1x.png), url(/images/header/23tab1x.png),
-      url(/images/header/molokotablet1x.png), url(/images/header/buttontab1x.png);
+    background-image: url(/images/images.header/moroz1xtab.png),
+      url(/images/images.header/girl1x.png), url(/images/images.header/ckugtab1x.png),
+      url(/images/images.header/16tab1x.png), url(/images/images.header/23tab1x.png),
+      url(/images/images.header/molokotab1x.png), url(/images/images.header/btntab1x.png);
     background-repeat: no-repeat;
     background-position: left 378px top 63px, right 34px bottom 0px, right 137px top 31px,
       right 34px top 94px, right 34px top 151px, left 34px bottom 28px, left 154px bottom 34px;
   }
   @media screen and (min-width: 1280px) {
     height: 665px;
-    background-image: url(/images/header/moroz1x.png), url(/images/header/girl1x.jpg),
-      url(/images/header/круг1х.png), url(/images/header/16t1x.png), url(/images/header/231x.png),
-      url(/images/header/moloko1x.png), url(/images/header/button1x.png);
+    background-image: url(/images/images.header/moroz1x.png),
+      url(/images/images.header/girldec1x.png), url(/images/images.header/ckug1x.png),
+      url(/images/images.header/161x.png), url(/images/images.header/231x.png),
+      url(/images/images.header/moloko1x.png), url(/images/images.header/btn1x.png);
     background-repeat: no-repeat;
     background-position: right 450px bottom 0px, right 109px bottom 0px, right 267px top 52px,
       right 97px top 156px, right 97px top 248px, left 77px bottom 45px, left 295px bottom 56px;
