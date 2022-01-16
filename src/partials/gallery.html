@@ -1,3 +1,28 @@
-<section>
-    <h1>Gallery</h1>
+<section class="gallery">
+    <div class="container">
+    <h2 class="visually-hidden">Gallery</h2>
+    <picture class="gallery__img">
+        <source 
+        srcset="
+            ./images/gallery/gallery-desktop.jpg 1x,
+            ./images/gallery/gallery-desktop-2x.jpg 2x
+        "
+        media="(min-width: 1200px)">
+    <source
+        srcset="./images/gallery/gallery-tab.jpg 1x,
+        ./images/gallery/gallery-tab-2x.jpg  2x
+        "
+        media="(min-width: 768px)"
+    >
+    <source
+        srcset="./images/gallery/gallery-mob.jpg  1x,
+        ./images/gallery/gallery-mob-2x.jpg 2x
+        "
+        media="(min-width: 480px)"
+    >
+    <img src="./images/gallery/gallery-desktop-2x.jpg">
+</picture>
+    
+    
+</div>
 </section>
