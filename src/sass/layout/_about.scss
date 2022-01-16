@@ -1,12 +1,27 @@
 .section--other-bg-color {
+  padding-top: 125px;
+  padding-bottom: 0;
   background-color: #fff5f6;
+  @media screen and (max-width: 767.5px) {
+    background-image: url(/images/about/bg-img-mobile-min.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom 41px center;
+    // background-position: right 32px bottom 0px;
+  }
 }
 
-.container--about {
-  text-align: center;
+// .container--about {
+//   text-align: center;
+// }
+
+.description {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .article {
+  text-align: center;
   margin-bottom: 15px;
   font-family: Titan One;
   font-style: normal;
@@ -18,21 +33,48 @@
 }
 
 .title {
+  text-align: center;
   margin-bottom: 26px;
   font-family: Titan One;
-  font-style: normal;
-  font-weight: 400;
   font-size: 34px;
   line-height: 1.15;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #d41443;
+  color: $color-text-red;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+
+.bold-text {
+  margin-bottom: 31px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.58;
+  color: $color-text-primary;
+}
+
+.text {
+  margin-bottom: 17px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.58;
+  color: $color-text-secondary;
 }
 
 .button--about {
   display: flex;
   justify-content: center;
   align-items: center;
+  &:hover,
+  &:focus {
+    background-color: $color-hoverfocus-gray;
+  }
 }
 
 .button__icon {
