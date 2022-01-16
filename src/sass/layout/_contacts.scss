@@ -190,19 +190,19 @@
 }
 .button-contacts {
   text-align: center;
-  @media screen and (max-width: 779.9px) {
-    width: 300px;
+  @media screen and (max-width: 767.9px) {
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
   }
 }
-.button-locations {
+.button-contacts__locations {
   color: $color-text-white;
   background-color: $color-text-red;
-  @media screen and (max-width: 779.9px) {
+  @media screen and (max-width: 767.9px) {
     margin-bottom: 10px;
   }
-  @media screen and (min-width: 780px) {
+  @media screen and (min-width: 768px) {
     margin-right: 15px;
   }
   &:hover,
@@ -210,7 +210,7 @@
     background-color: $color-hoverfocus-red;
   }
 }
-.button-franchise {
+.button-contacts__franchise {
   &:hover,
   &:focus {
     background-color: $color-hoverfocus-gray;
@@ -220,22 +220,22 @@
   font-weight: 700;
   min-width: 162px;
   padding: 11px 0px;
-  @media screen and (min-width: 780px) {
+  @media screen and (min-width: 768px) {
     min-width: 190px;
   }
   @media screen and (min-width: 1280px) {
     min-width: 195px;
   }
 }
-.button-svg {
+.button-contacts__svg {
   margin-left: 13px;
 
   height: 9px;
   width: 6px;
 }
-.button-svg--color-white {
+.button-contacts__svg--color-white {
   fill: $color-text-white;
 }
-.button-svg--color-red {
+.button-contacts__svg--color-red {
   fill: $color-text-red;
 }
