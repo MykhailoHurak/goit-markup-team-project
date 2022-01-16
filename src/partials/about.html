@@ -1,5 +1,4 @@
 <section class="section section--other-bg-color">
-    <!-- section About -->
     <div class="container container--about">
         <p class="article">
             tradition and love
@@ -10,53 +9,41 @@
         <picture>
             <source
             srcset="
-                ../images/about/cow-img-mobile.png 1x,
-                ../images/about/cow-img-mobile-2x.png 2x
+                ./images/about/cow-img-desktop.png 1x,
+                ./images/about/cow-img-desktop-2x.png 2x
+            "
+            media="(min-width: 1200px)">
+            <source
+            srcset="
+                ./images/about/cow-img-tablet.png 1x,
+                ./images/about/cow-img-tablet-2x.png 2x
+            "
+            media="(min-width: 768px)">
+            <source
+            srcset="
+                ./images/about/cow-img-mobile.png 1x,
+                ./images/about/cow-img-mobile-2x.png 2x
             "
             media="(min-width: 320px)"
             >
-            <img src="../images/about/cow-img-desktop.png" alt="cow">
+            <img src="./images/about/cow-img-desktop.png" alt="cow">
         </picture>
-        <!-- <picture>
-            <source
-                srcset="
-                    ../images/about/cow-img-desktop.png 1x,
-                    ../images/about/cow-img-desktop-2x.png 2x
-                "
-                media="(min-width: 1200px)">
-            <source
-                srcset="
-                    ../images/about/cow-img-tablet.png 1x,
-                    ../images/about/cow-img-tablet-2x.png 2x
-                "
-                media="(min-width: 768px)">
-            <source srcset="
-                    ../images/about/cow-img-mobile.png 1x,
-                    ../images/about/cow-img-mobile-2x.png 2x
-                "
-                media="(min-width: 320px)">
-            <img src="../images/about/cow-img-desktop.png" alt="cow">
-        </picture> -->
         <button
             type="button"
             class="button button--about"
         >
             Read more
-            <!-- <svg
+            <svg
                 class="button__icon"
-                width='4px'
+                width='5px'
                 height='8px'
             >
-                <use href='../../images/icons.svg#icon-button-mark'>
+                <use href='././images/icons.svg#icon-button-mark'>
 
                 </use>
-            </svg> -->
+            </svg>
 
-        <!-- <svg class="footer__icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-signup-btn"></use>
-        </svg> -->
-
-        </button>
+         </button>
     </div>
 
 </section>
