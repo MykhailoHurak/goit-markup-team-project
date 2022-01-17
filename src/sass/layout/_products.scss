@@ -110,7 +110,7 @@
     width: 249px;
     height: 252px;
 
-    background-image: url(../../images/products/product1.png);
+    background-image: url(../images/products/product1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,11 +121,11 @@
       (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../../images/products/product1@2x.png);
+      background-image: url(../images/products/product1@2x.png);
     }
 
     @media screen and (min-width: 768px) {
-      background-image: url(../../images/products/product1-tab.png);
+      background-image: url(../images/products/product1-tab.png);
       width: 220px;
       height: 226px;
 
@@ -133,13 +133,13 @@
         (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-        background-image: url(../../images/products/product1@2x-tab.png);
+        background-image: url(../images/products/product1@2x-tab.png);
       }
     }
 
     @media screen and (min-width: 1280px) {
       transform: translate(-50%, -60%);
-      background-image: url(../../images/products/product1-full.png);
+      background-image: url(../images/products/product1-full.png);
       width: 335px;
       height: 335px;
 
@@ -147,7 +147,7 @@
         (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-        background-image: url(../../images/products/product1@2x-full.png);
+        background-image: url(../images/products/product1@2x-full.png);
       }
     }
   }
@@ -155,17 +155,17 @@
 
 .products__title--bg-yellow {
   &::before {
-    background-image: url(../../images/products/product2.png);
+    background-image: url(../images/products/product2.png);
 
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../../images/products/product2@2x.png);
+      background-image: url(../images/products/product2@2x.png);
     }
 
     @media screen and (min-width: 768px) {
-      background-image: url(../../images/products/product2-tab.png);
+      background-image: url(../images/products/product2-tab.png);
       width: 220px;
       height: 226px;
 
@@ -173,12 +173,12 @@
         (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-        background-image: url(../../images/products/product2@2x-tab.png);
+        background-image: url(../images/products/product2@2x-tab.png);
       }
     }
 
     @media screen and (min-width: 1280px) {
-      background-image: url(../../images/products/product2-full.png);
+      background-image: url(../images/products/product2-full.png);
       width: 335px;
       height: 335px;
 
@@ -186,7 +186,7 @@
         (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-        background-image: url(../../images/products/product2@2x-full.png);
+        background-image: url(../images/products/product2@2x-full.png);
       }
     }
   }
@@ -194,17 +194,17 @@
 
 .products__title--bg-green {
   &::before {
-    background-image: url(../../images/products/product3.png);
+    background-image: url(../images/products/product3.png);
 
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../../images/products/product3@2x.png);
+      background-image: url(../images/products/product3@2x.png);
     }
 
     @media screen and (min-width: 768px) {
-      background-image: url(../../images/products/product3-tab.png);
+      background-image: url(../images/products/product3-tab.png);
       width: 220px;
       height: 226px;
 
@@ -212,12 +212,12 @@
         (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-        background-image: url(../../images/products/product3@2x-tab.png);
+        background-image: url(../images/products/product3@2x-tab.png);
       }
     }
 
     @media screen and (min-width: 1280px) {
-      background-image: url(../../images/products/product3-full.png);
+      background-image: url(../images/products/product3-full.png);
       width: 335px;
       height: 335px;
 
@@ -225,7 +225,7 @@
         (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-        background-image: url(../../images/products/product3@2x-full.png);
+        background-image: url(../images/products/product3@2x-full.png);
       }
     }
   }
@@ -248,7 +248,7 @@
     content: ' ';
     width: 26px;
     height: 6px;
-    background-image: url(../../images/products/product-after.png);
+    background-image: url(../images/products/product-after.png);
     position: absolute;
     top: -30px;
     left: 50%;
