@@ -1,4 +1,4 @@
-.section--other-bg-color {
+.section--about {
   padding-top: 125px;
   @media screen and (min-width: 768px) and (max-width: 1279.5px) {
     padding-top: 130px;
@@ -10,12 +10,18 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom 41px center;
+    @media (min-resolution: 2dppx) {
+      background-image: url(/images/about/bg-img-mobile-2x-min.png);
+    }
   }
   @media screen and (min-width: 1280px) {
     background-image: url(/images/about/bg-img-desktop-min.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: bottom 0 center;
+    background-position: bottom center;
+    @media (min-resolution: 2dppx) {
+      background-image: url(/images/about/bg-img-desktop-2x-min.png);
+    }
   }
 }
 
