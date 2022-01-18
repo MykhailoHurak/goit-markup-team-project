@@ -11,6 +11,12 @@
     background-repeat: no-repeat;
     background-position: bottom 41px center;
   }
+  @media screen and (min-width: 1280px) {
+    background-image: url(/images/about/bg-img-desktop-min.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom 0 center;
+  }
 }
 
 .article {
@@ -70,6 +76,18 @@
   }
   @media screen and (min-width: 1280px) {
     margin-right: 74px;
+  }
+}
+
+.about-image {
+  @media screen and (min-width: 768px) {
+    max-width: none;
+    width: 340px;
+    height: 339px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 516px;
+    height: 516px;
   }
 }
 
