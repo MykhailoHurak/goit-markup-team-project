@@ -1,0 +1,21 @@
+
+.gallery {
+    padding-bottom: 80px;
+    padding-top: 0px;
+    background: linear-gradient(180deg, rgb(255, 245, 246) 49px, rgb(255, 255, 255)  2%);
+    @media screen and (min-width: 768px) {
+        padding-bottom: 121px;
+        padding-top: 0;
+        background: linear-gradient(180deg, rgb(255, 245, 246) 96px, rgb(255, 255, 255)  2%);
+      }
+    
+      @media screen and (min-width: 1280px) {
+        padding-bottom: 123px;
+        padding-top: 0;
+        background: linear-gradient(180deg, rgb(255, 245, 246) 141px, rgb(255, 255, 255)  2%);
+      }
+}
+.gallery__img {
+    margin-left: auto;
+    margin-right: auto;
+}
