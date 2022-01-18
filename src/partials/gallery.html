@@ -1,13 +1,13 @@
 <section class="gallery">
     <div class="container">
     <h2 class="visually-hidden">Gallery</h2>
-    <picture class="gallery__img">
+    <picture>
         <source 
         srcset="
             ./images/gallery/gallery-desktop.jpg 1x,
             ./images/gallery/gallery-desktop-2x.jpg 2x
         "
-        media="(min-width: 1200px)">
+        media="(min-width: 1280px)">
     <source
         srcset="./images/gallery/gallery-tab.jpg 1x,
         ./images/gallery/gallery-tab-2x.jpg  2x
@@ -20,7 +20,7 @@
         "
         media="(min-width: 480px)"
     >
-    <img src="./images/gallery/gallery-desktop-2x.jpg">
+    <img class="gallery__img" src="./images/gallery/gallery-desktop-2x.jpg">
 </picture>
     
     
