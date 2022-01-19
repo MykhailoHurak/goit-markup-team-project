@@ -1,8 +1,14 @@
 .section--big-padding {
-  padding-top: 120px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 
   @media screen and (min-width: 768px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 120px;
     padding-bottom: 120px;
   }
 }
@@ -53,6 +59,8 @@
 
 .products__item {
   position: relative;
+  width: 280px;
+  margin: 0 auto;
 
   padding: 160px 40px 40px 40px;
   background-color: $color-background-pink;
@@ -264,7 +272,25 @@
   }
 }
 
-.products__link {
-  display: flex;
-  justify-content: center;
+.products__btn {
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  border-color: transparent;
+
+  background-image: url(../images/products/product-button.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/products/product-button@2x.png);
+  }
+
+  cursor: pointer;
 }
