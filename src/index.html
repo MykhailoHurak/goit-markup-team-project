@@ -14,18 +14,24 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"
     rel="stylesheet">
 </head>
+ 
+  <body>
+    <include src="./partials/header-hero.html"></include>
+    <include src="./partials/mobile-menu.html"></include>
+    <include src="./partials/products.html"></include>
+    <include src="./partials/about.html"></include>
+    <include src="./partials/advantages.html"></include>
+    <include src="./partials/gallery.html"></include>
+    <include src="./partials/customer-reviews.html"></include>
+    <include src="./partials/contacts.html"></include>
+    <include src="./partials/footer.html"></include>
+    <include src="./partials/modal-window.html"></include>
 
-<body>
-  <include src="./partials/header-hero.html"></include>
-  <include src="./partials/mobile-menu.html"></include>
-  <include src="./partials/products.html"></include>
-  <include src="./partials/about.html"></include>
-  <include src="./partials/advantages.html"></include>
-  <include src="./partials/gallery.html"></include>
-  <include src="./partials/customer-reviews.html"></include>
-  <include src="./partials/contacts.html"></include>
-  <include src="./partials/footer.html"></include>
-  <include src="./partials/modal-window.html"></include>
+    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+    <script src="./index.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./js/modal-window.js"></script>
+  </body>
 
   <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
   <script src="./index.js"></script>
