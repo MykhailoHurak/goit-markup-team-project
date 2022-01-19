@@ -171,7 +171,7 @@
     color: #d41443;
   }
 }
-.nav__link_styles {
+.nav__link--red {
   color: #d41443;
 }
 .header__modal_btn {
@@ -249,17 +249,10 @@
     display: none;
   }
 }
-.btn__burger {
-  width: 20px;
-  height: 0px;
-
-  border: 1px solid #d41443;
-  box-sizing: border-box;
-
-  &:not(:last-child) {
-    margin-right: 6px;
-  }
+.btn_icon {
+  transform: rotate(90deg);
 }
+
 .hero {
   padding-left: 20px;
   margin-top: 137px;
@@ -293,6 +286,7 @@
     line-height: 1.16;
   }
 }
+
 .title__styles {
   font-family: Titan One;
   font-style: normal;
