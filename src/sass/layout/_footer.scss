@@ -19,15 +19,15 @@
 }
 
 .footer-box {
-  flex-direction: 1;
+  padding-bottom: 43px;
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 43px;
   }
 }
 
 // footer-box-title
+
 .footer-box-title {
   margin-bottom: 43px;
   @media screen and (min-width: 768px) {
@@ -79,7 +79,8 @@
   flex-grow: 1;
 }
 
-// footer-box-social
+// footer-social
+
 .social {
   margin-bottom: 43px;
 }
@@ -119,13 +120,7 @@
   }
 }
 
-// footer-box-contact
-.footer-box-contact {
-  margin-bottom: 43px;
-  @media screen and (min-width: 768px) {
-    margin-bottom: 0;
-  }
-}
+// footer-contact
 
 .footer-contact {
   font-family: DM Sans;
