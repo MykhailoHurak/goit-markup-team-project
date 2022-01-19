@@ -19,15 +19,20 @@
 }
 
 .footer-box {
+  flex-direction: 1;
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 43px;
   }
 }
 
 // footer-box-title
 .footer-box-title {
   margin-bottom: 43px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
 }
 
 .footer-box-title__one {
@@ -68,6 +73,10 @@
     width: 472px;
     font-size: 58px;
   }
+}
+
+.footer-box-double {
+  flex-grow: 1;
 }
 
 // footer-box-social
@@ -113,6 +122,9 @@
 // footer-box-contact
 .footer-box-contact {
   margin-bottom: 43px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
 }
 
 .footer-contact {
