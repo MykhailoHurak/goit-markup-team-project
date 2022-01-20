@@ -4,27 +4,29 @@
 
 .header__container {
   height: 502px;
-  background-image: url(/images/header/мороженкоmob1x.png), url(/images/header/кругmob1x.png);
+  background-image: url(../images/header/icecrem-mob1x.png), url(../images/header/circle-mob1x.png);
   background-repeat: no-repeat;
   background-position: right 32px bottom 0px, right 0px bottom 75px;
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url(/images/header/мороженкоmob2x.png);
+    background-image: url(../images/header/icecrem-mob2x.png),
+      url(../images/header/circle-mob2x.png);
+    background-size: 171px 410px, 346px 402px;
   }
-  @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url(/images/header/кругmob2x.png);
-  }
+  // @media (min-device-pixel-ratio: 2),
+  //   (-webkit-min-device-pixel-ratio: 2),
+  //   (min-resolution: 192dpi),
+  //   (min-resolution: 2dppx) {
+  //   background-image: url(../images/header/circle-mob2x.png);
+  // }
 
   @media screen and (min-width: 768px) {
     height: 399px;
-    background-image: url(/images/header/мороженкоtab1x.png), url(/images/header/girltab1x.png),
-      url(/images/header/кругtab1x.png), url(/images/header/16tab1x.png),
-      url(/images/header/23tab1x.png), url(/images/header/molokotab1x.png);
+    background-image: url(../images/header/icecrem-tab1x.png), url(../images/header/girltab1x.png),
+      url(../images/header/circle-tab1x.png), url(../images/header/16tab1x.png),
+      url(../images/header/23tab1x.png), url(../images/header/molokotab1x.png);
     background-repeat: no-repeat;
     background-position: left 378px top 63px, right 34px bottom 0px, right 137px top 31px,
       right 34px top 94px, right 34px top 151px, left 34px bottom 28px;
@@ -32,90 +34,97 @@
       (-webkit-min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(/images/header/мороженкоtab2x.png);
+      background-image: url(../images/header/icecrem-tab2x.png), url(../images/header/girltab2x.png),
+        url(../images/header/circle-tab2x.png), url(../images/header/16tab2x.png),
+        url(../images/header/23tab2x.png), url(../images/header/molokotab2x.png);
+      background-size: 143px 336px, 168px 133px, 324px 322px, 43px 44px, 51px 43px, 124px 126px;
     }
-    @media (min-device-pixel-ratio: 2),
-      (-webkit-min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(/images/header/girltab2x.png);
-    }
-    @media (min-device-pixel-ratio: 2),
-      (-webkit-min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(/images/header/кругtab2x.png);
-    }
-    @media (min-device-pixel-ratio: 2),
-      (-webkit-min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(/images/header/16tab2x.png);
-    }
-    @media (min-device-pixel-ratio: 2),
-      (-webkit-min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(/images/header/23tab2x.png);
-    }
-    @media (min-device-pixel-ratio: 2),
-      (-webkit-min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(/images/header/molokotab2x.png);
-    }
+    // @media (min-device-pixel-ratio: 2),
+    //   (-webkit-min-device-pixel-ratio: 2),
+    //   (min-resolution: 192dpi),
+    //   (min-resolution: 2dppx) {
+    //   background-image: url(../images/header/girltab2x.png);
+    // }
+    // @media (min-device-pixel-ratio: 2),
+    //   (-webkit-min-device-pixel-ratio: 2),
+    //   (min-resolution: 192dpi),
+    //   (min-resolution: 2dppx) {
+    //   background-image: url(../images/header/circle-tab2x.png);
+    // }
+    // @media (min-device-pixel-ratio: 2),
+    //   (-webkit-min-device-pixel-ratio: 2),
+    //   (min-resolution: 192dpi),
+    //   (min-resolution: 2dppx) {
+    //   background-image: url(../images/header/16tab2x.png);
+    // }
+    // @media (min-device-pixel-ratio: 2),
+    //   (-webkit-min-device-pixel-ratio: 2),
+    //   (min-resolution: 192dpi),
+    //   (min-resolution: 2dppx) {
+    //   background-image: url(../images/header/23tab2x.png);
+    // }
+    // @media (min-device-pixel-ratio: 2),
+    //   (-webkit-min-device-pixel-ratio: 2),
+    //   (min-resolution: 192dpi),
+    //   (min-resolution: 2dppx) {
+    //   background-image: url(../images/header/molokotab2x.png);
+    // }
   }
   @media screen and (min-width: 1280px) {
     height: 665px;
-    background-image: url(/images/header/мороженко1x.png), url(/images/header/girl1x.png),
-      url(/images/header/круг1x.png), url(/images/header/16dec1x.png),
-      url(/images/header/23dec1x.png), url(/images/header/moloko1x.png);
+    background-image: url(../images/header/icecrem-1x.png), url(../images/header/girl1x.png),
+      url(../images/header/circle-1x.png), url(../images/header/16dec1x.png),
+      url(../images/header/23dec1x.png), url(../images/header/moloko1x.png);
     background-repeat: no-repeat;
     background-position: right 450px bottom 0px, right 109px bottom 0px, right 267px top 52px,
       right 97px top 156px, right 97px top 248px, left 77px bottom 45px;
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/header/icecrem-2x.png), url(../images/header/girl2x.png),
+        url(../images/header/circle-2x.png), url(../images/header/16dec2x.png),
+        url(../images/header/23dec2x.png), url(../images/header/moloko2x.png);
+      background-size: 236px 557px, 293px 232px, 538px 538px, 72px 77px, 92px 76px, 188px 191px;
+    }
   }
-  @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url(/images/header/мороженко2x.png);
-  }
-  @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url(/images/header/girl2x.png);
-  }
-  @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url(/images/header/круг2x.png);
-  }
-  @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url(/images/header/16dec2x.png);
-  }
-  @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url(/images/header/23dec2x.png);
-  }
-  @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url(/images/header/23dec2x.png);
-  }
-  @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url(/images/header/moloko2x.png);
-  }
+  // @media (min-device-pixel-ratio: 2),
+  //   (-webkit-min-device-pixel-ratio: 2),
+  //   (min-resolution: 192dpi),
+  //   (min-resolution: 2dppx) {
+  //   background-image: ;
+  // }
+  // @media (min-device-pixel-ratio: 2),
+  //   (-webkit-min-device-pixel-ratio: 2),
+  //   (min-resolution: 192dpi),
+  //   (min-resolution: 2dppx) {
+  //   background-image: ;
+  // }
+  // @media (min-device-pixel-ratio: 2),
+  //   (-webkit-min-device-pixel-ratio: 2),
+  //   (min-resolution: 192dpi),
+  //   (min-resolution: 2dppx) {
+  //   background-image: ;
+  // }
+  // @media (min-device-pixel-ratio: 2),
+  //   (-webkit-min-device-pixel-ratio: 2),
+  //   (min-resolution: 192dpi),
+  //   (min-resolution: 2dppx) {
+  //   background-image: ;
+  // }
+  // @media (min-device-pixel-ratio: 2),
+  //   (-webkit-min-device-pixel-ratio: 2),
+  //   (min-resolution: 192dpi),
+  //   (min-resolution: 2dppx) {
+  //   background-image: url(../images/header/23dec2x.png);
+  // }
+  // @media (min-device-pixel-ratio: 2),
+  //   (-webkit-min-device-pixel-ratio: 2),
+  //   (min-resolution: 192dpi),
+  //   (min-resolution: 2dppx) {
+  //   background-image: ;
+  // }
 }
 
 .header__nav {
