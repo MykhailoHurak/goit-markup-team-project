@@ -13,7 +13,7 @@
     (min-resolution: 2dppx) {
     background-image: url(../images/header/icecrem-mob2x.png),
       url(../images/header/circle-mob2x.png);
-    background-size: 171px 410px, 346px 402px;
+    background-size: 171px 410px, 300px 360px;
   }
   // @media (min-device-pixel-ratio: 2),
   //   (-webkit-min-device-pixel-ratio: 2),
@@ -77,7 +77,7 @@
       url(../images/header/23dec1x.png), url(../images/header/moloko1x.png);
     background-repeat: no-repeat;
     background-position: right 450px bottom 0px, right 109px bottom 0px, right 267px top 52px,
-      right 97px top 156px, right 97px top 248px, left 77px bottom 45px;
+      right 97px top 156px, right 97px top 248px, left 87px bottom 45px;
 
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
@@ -197,18 +197,18 @@
   @media screen and (min-width: 768px) {
     font-family: DM Sans;
     font-style: normal;
-    font-weight: normal;
-    font-size: 8px;
-    line-height: 1.2;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    margin-top: 66px;
-    padding-left: 86px;
-  }
-  @media screen and (min-width: 1280px) {
+    font-weight: 400;
     font-size: 8px;
     line-height: 1.5;
-    margin-top: 112px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    margin-top: 66px;
+    padding-left: 124px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 87px;
     padding-left: 163px;
   }
 }
@@ -224,7 +224,7 @@
 .header__logo {
   cursor: pointer;
   @media screen and (min-width: 1280px) {
-    padding-left: 12px;
+    margin-left: -70px;
   }
 }
 .header__btn {
@@ -257,6 +257,7 @@
   }
   @media screen and (min-width: 768px) {
     margin-top: 15px;
+    padding-left: 0;
   }
   @media screen and (min-width: 1280px) {
     margin-top: 84px;
@@ -427,7 +428,10 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    fill: #d41443;
+    background-color: $color-hoverfocus-red;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
   }
 }
 
@@ -505,7 +509,7 @@
   border-radius: 50%;
   border: none;
   cursor: pointer;
-  margin-left: 85px;
+  margin-left: 124px;
   margin-top: 7px;
   @media screen and (max-width: 767px) {
     display: none;
