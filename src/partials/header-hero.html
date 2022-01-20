@@ -7,7 +7,7 @@
             <nav class="header__nav">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="" class="nav__link"><span class="nav__link_styles">Home</span></a>
+                        <a href="" class="nav__link"><span class="nav__link--red">Home</span></a>
                     </li>
                     <li class="nav__item">
                         <a href="#customer-reviews" class="nav__link">About us</a>
@@ -23,7 +23,7 @@
                     </li>
                 </ul>
             </nav>
-            <button type="button" class="header__btn" data-modal-open>
+            <button type="button" class="header__btn" data-menu-open>
                 <svg width="20" height="12" class="btn_icon">
                     <use href="images/icons.svg#icon-burger"></use>
                 </svg>
@@ -38,10 +38,10 @@
         <div class="hero">
             <h1 class="hero__title">ice cream <br> made with <br> <span class="title__styles">passion</span> </h1>
             <ul class="hero__buttons">
-                <li>
+                <li class="hero_item">
                     <a href="#products" class="hero__btn">Products</a>
                 </li>
-                <li>
+                <li class="hero_item">
                     <a href="#about" class="hero__btn_styles">How it's made?</a>
                 </li>
             </ul>
@@ -49,94 +49,15 @@
                 <br>incididunt ut
                 labore et
             </p>
-
-            <div class="img__box">
-                <div class="img__one">
-                    <picture>
-                        <source srcset="images/header/мороженко1x.png 1x,
-                        images/header/мороженко2x.png  2x" media="(min-width:1280)">
-                        <source srcset="images/header/мороженкоtab1x.png 1x ,
-                        images/header/мороженкоtab2x.png 2x" media="(min-width:768)">
-                        <source srcset="images/header/мороженкоmob1x.png 1x,
-                        images/header/мороженкоmob2x.png 2x" media="(min-width:320)">
-                        <img src="images/header/мороженко1x.png" alt="">
-                    </picture>
-                </div>
-
-                <div class="img_two">
-                    <picture>
-                        <source srcset="images/header/круг1x.png 1x,
-                        images/header/круг2x.png 2x" media="(min-width:1280)">
-                        <source srcset="images/header/кругtab1x.png 1x ,
-                        images/header/кругtab2x.png  2x" media="(min-width:768)">
-                        <img src="images/header/кругtab1x.png" alt="">
-                        <source srcset="images/header/кругmob1x.png 1x ,
-                        images/header/кругmob2x.png 2x" media="(min-width:320)">
-                        <img src="images/header/круг1x.png" alt="">
-                    </picture>
-                </div>
-
-                <div class="img_three">
-                    <picture>
-                        <source srcset="images/header/girl1x.png 1x,
-                        images/header/girl2x.png 2x" media="(min-width:1200)">
-                        <source srcset="images/header/girltab1x.png 1x ,
-                        images/header/girltab2x.png 2x" media="(min-width:768)">
-                        <img src="images/header/girl1x.png" alt="">
-                    </picture>
-                </div>
-
-                <div class="img_four">
-                    <picture>
-                        <source srcset="images/header/16dec1x.png 1x,
-                       images/header/16dec2x.png 2x" media="(min-width:1280)">
-                        <source srcset="images/header/16tab1x.png 1x ,
-                        images/header/16tab2x.png 2x" media="(min-width:768)">
-                        <img src="images/header/16dec1x.png" alt="">
-                    </picture>
-                </div>
-
-                <div class="img_five">
-                    <picture>
-                        <source srcset="images/header/23dec1x.png 1x,
-                        images/header/23dec2x.png 2x" media="(min-width:1280)">
-                        <source srcset="images/header/23tab1x.png 1x ,
-                        images/header/23tab2x.png 2x" media="(min-width:768)">
-                        <img src="images/header/23dec1x.png" alt="">
-                    </picture>
-                </div>
-
-                <div class="img_six">
-                    <picture>
-                        <source srcset="images/header/moloko1x.png 1x,
-                        images/header/moloko2x.png  2x" media="(min-width:1280)">
-                        <source srcset="images/header/molokotab1x.png 1x ,
-                        images/header/molokotab2x.png 2x" media="(min-width:768)">
-                        <img src="images/header/moloko1x.png" alt="">
-                    </picture>
-                </div>
-
-                <div class="img_seven">
-                    <picture>
-                        <source srcset="images/header/btn1x.png 1x,
-                        images/header/btn2x.png 2x" media="(min-width:1280)">
-                        <source srcset="images/header/btntam1x.png  1x ,
-                        images/header/btntam2x.png  2x" media="(min-width:768)">
-                        <img src="images/header/btn1x.png" alt="">
-                    </picture>
-                </div>
-                <div class="img_eight">
-                    <picture>
-                        <source srcset="images/header/кругmob1x.png 1x,
-                        images/header/кругmob2x.png  2x" media="(min-width:320)">
-                        <img src="images/header/кругmob1x.png" alt="">
-                    </picture>
-                </div>
-            </div>
+            <button type="button" class="button__hed">
+                <svg width="10" height="12" class="icon_svg">
+                    <use href="images/icons.svg#icon-arrow-right2"></use>
+                </svg>
+            </button>
         </div>
 
-        <div class="mobile__menu is-hidden" data-modal>
-            <button type="button" class="menu__btn_close" data-modal-close>
+        <div class="mobile__menu is-hidden" data-menu>
+            <button type="button" class="menu__btn_close" data-menu-close>
                 <svg width="14" height="14" class="menu__svg">
                     <use href="images/icons.svg#icon-close"></use>
                 </svg>
