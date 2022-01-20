@@ -1,27 +1,27 @@
-.reviews{
+.reviews {
   margin: 0 auto;
   padding-bottom: 86px;
   max-width: 280px;
-  @media screen and (min-width:480px) {
+  @media screen and (min-width: 480px) {
     max-width: 440px;
   }
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     padding-bottom: 119px;
     max-width: 620px;
   }
-  @media screen and (min-width:1280px) {
+  @media screen and (min-width: 1280px) {
     padding-bottom: 132px;
     max-width: 926px;
   }
 }
-.container__position{
+.container__position {
   position: relative;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   margin-top: 29px;
   padding: 43px 50px 14px 50px;
-  &::before{
+  &::before {
     content: '';
-    background-image:url(../images/customer-reviews/quotes.png);
+    background-image: url(../images/customer-reviews/quotes.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
@@ -32,87 +32,91 @@
     top: 28px;
     left: 61px;
     position: absolute;
-    fill: #E1E1E1;
-    @media screen and (min-width:768px) {
+    fill: #e1e1e1;
+    @media screen and (min-width: 768px) {
       top: 30px;
       left: 40px;
     }
-    @media screen and (min-width:1280px) {
+    @media screen and (min-width: 1280px) {
       top: 32px;
       left: 50px;
     }
   }
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     padding: 47px 80px 34px 80px;
     margin-top: 19px;
   }
-  @media screen and (min-width:1280px) {
+  @media screen and (min-width: 1280px) {
     padding: 47px 89px 39px 87px;
     margin-top: 15px;
   }
 }
-.reviews__container{
+.reviews__container {
   display: flex;
   justify-content: center;
   position: relative;
 }
-.reviews__text{
+.reviews__text {
   font-weight: 500;
   font-size: 12px;
   line-height: 2.59;
   text-align: center;
   display: block;
-  background-image: repeating-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 30px, #e1e1e1 30px, #e1e1e1 31px);
+  background-image: repeating-linear-gradient(
+    hsla(0, 0%, 100%, 0),
+    hsla(0, 0%, 100%, 0) 29px,
+    #e1e1e1 0,
+    #e1e1e1 30px
+  );
   letter-spacing: 0.04em;
   color: #000000;
   max-width: 157px;
   overflow: auto;
   max-height: 314px;
-  @media screen and (min-width:480px) {
+  @media screen and (min-width: 480px) {
     max-width: max-content;
   }
-  @media screen and (min-width:1280px) {
-  font-size: 14px;
-  line-height: 2.22;
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
+    line-height: 2.22;
   }
 }
-.reviews__img{
+.reviews__img {
   display: flex;
   justify-content: center;
 }
-.reviews__details{
+.reviews__details {
   margin-top: 30px;
   margin-bottom: 30px;
-  @media screen and (min-width:768px) {
-    margin-top:24px;
+  @media screen and (min-width: 768px) {
+    margin-top: 24px;
     margin-bottom: 35px;
-
   }
-  @media screen and (min-width:1280px) {
-    margin-top:15px;
+  @media screen and (min-width: 1280px) {
+    margin-top: 15px;
   }
 }
-.reviews__details--list{
+.reviews__details--list {
   display: flex;
   justify-content: center;
   margin-bottom: 18px;
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 14px;
   }
-  @media screen and (min-width:1280px) {
-    margin-bottom:15px;
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 15px;
   }
 }
-.reviews__details--title{
+.reviews__details--title {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.86;
   color: #000000;
   text-align: center;
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     font-size: 16px;
   }
-  @media screen and (min-width:1280px) {
+  @media screen and (min-width: 1280px) {
     font-size: 20px;
   }
 }
@@ -120,21 +124,21 @@
   display: flex;
   justify-content: center;
 }
-.num{
+.num {
   display: flex;
-    justify-content: center;
-    min-width: 12px;
-    height: 12px;
-    background: #D9D9D9;
-    border-radius: 50%;
-    text-align: center;
-    cursor: pointer;
-    transition: 0.75s;
-    color: transparent;
-    margin-right: 9px;
-    margin-left: 9px;
+  justify-content: center;
+  min-width: 12px;
+  height: 12px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.75s;
+  color: transparent;
+  margin-right: 9px;
+  margin-left: 9px;
 }
-.num:hover ,
+.num:hover,
 .num:focus {
   background: transparent;
   background-image: url(../images/customer-reviews/house.png);
@@ -144,25 +148,25 @@
 .view {
   overflow: hidden;
   width: 280px;
-  @media screen and (min-width:480px) {
+  @media screen and (min-width: 480px) {
     width: 440px;
   }
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     width: 620px;
   }
-  @media screen and (min-width:1280px) {
+  @media screen and (min-width: 1280px) {
     width: 926px;
   }
 }
 .element {
   width: 280px;
-  @media screen and (min-width:480px) {
+  @media screen and (min-width: 480px) {
     width: 440px;
   }
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     width: 620px;
   }
-  @media screen and (min-width:1280px) {
+  @media screen and (min-width: 1280px) {
     width: 926px;
   }
 }
@@ -172,13 +176,14 @@
   transition: 0.5s;
   transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
-.previous , .next{
+.previous,
+.next {
   display: none;
 }
-.reviews__details--item:not(:last-child){
+.reviews__details--item:not(:last-child) {
   margin-right: 18px;
 }
-.navigation{
+.navigation {
   margin-left: -9px;
   margin-right: -9px;
 }
