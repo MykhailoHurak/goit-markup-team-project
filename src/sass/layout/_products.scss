@@ -13,29 +13,8 @@
   }
 }
 
-.section__text {
-  margin-bottom: 15px;
-
-  font-family: Titan One;
-  font-size: 18px;
-  line-height: 1.17;
-  text-align: center;
-  text-transform: uppercase;
-
-  color: $color-text-pink;
-}
-.section__title {
+.section__title--margin-product {
   margin-bottom: 130px;
-
-  font-family: Titan One;
-  font-weight: 400;
-  font-size: 34px;
-  line-height: 1.15;
-  text-align: center;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-
-  color: $color-text-red;
 
   @media screen and (min-width: 768px) {
     margin-bottom: 150px;

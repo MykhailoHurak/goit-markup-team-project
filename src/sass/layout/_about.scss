@@ -25,36 +25,16 @@
   }
 }
 
-.article {
-  text-align: center;
-  margin-bottom: 15px;
-  @media screen and (min-width: 768px) and (max-width: 1279.5px) {
-    margin-bottom: 16px;
-  }
-  font-family: Titan One;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.17;
-  text-transform: uppercase;
-  color: #ffa5ba;
-}
-
-.title {
-  text-align: center;
+.section__title--margin-about {
   margin-bottom: 26px;
+
   @media screen and (min-width: 768px) {
     margin-bottom: 50px;
   }
+
   @media screen and (min-width: 1280px) {
-    margin-bottom: 55px;
+    margin-bottom: 70px;
   }
-  font-family: Titan One;
-  font-size: 34px;
-  line-height: 1.15;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: $color-text-red;
 }
 
 .about-wrap {
