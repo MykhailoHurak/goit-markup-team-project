@@ -30,16 +30,20 @@
     width: 54px;
     height: 40px;
     top: 28px;
-    left: 61px;
+    left: 31px;
     position: absolute;
     fill: #e1e1e1;
+    @media screen and (min-width: 480px) {
+      top: 30px;
+      left: 18px;
+    }
     @media screen and (min-width: 768px) {
       top: 30px;
-      left: 40px;
+      left: 30px;
     }
     @media screen and (min-width: 1280px) {
       top: 32px;
-      left: 50px;
+      left: 45px;
     }
   }
   @media screen and (min-width: 768px) {
@@ -57,11 +61,14 @@
   position: relative;
 }
 .reviews__text {
+  padding-left: 10px;
+  padding-right: 10px;
   font-weight: 500;
   font-size: 12px;
   line-height: 2.59;
   text-align: center;
   display: block;
+
   background-image: repeating-linear-gradient(
     hsla(0, 0%, 100%, 0),
     hsla(0, 0%, 100%, 0) 29px,
