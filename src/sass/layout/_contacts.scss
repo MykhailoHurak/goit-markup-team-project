@@ -59,6 +59,14 @@
     padding: 50px 31px;
     margin: 0px 10px;
     flex-basis: calc((100% - (6 * 10px)) / 3);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 500ms;
+    &:hover,
+    &:focus {
+      transform: scale(1.2);
+      // transition-duration: 500ms;
+      z-index: 2;
+    }
   }
   @media screen and (min-width: 1280px) {
     padding: 55px 43px;
