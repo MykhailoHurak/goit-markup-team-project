@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://mikegurak.github.io/goit-markup-team-project",
+  "homepage": "https://mykhailohurak.github.io/goit-markup-team-project",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-markup-team-project/"
